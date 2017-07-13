@@ -1,0 +1,835 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 그누페이\n"
+"POT-Creation-Date: 2016-04-21 11:34+0900\n"
+"PO-Revision-Date: 2016-04-21 11:34+0900\n"
+"Last-Translator: \n"
+"Language-Team: SIR SOFT\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin_metabox.class.php:25
+msgid "PG 결재"
+msgstr ""
+
+#: classes/admin_metabox.class.php:62
+msgid "결제승인"
+msgstr ""
+
+#: classes/admin_metabox.class.php:66
+msgid "테스트결제"
+msgstr ""
+
+#: classes/admin_metabox.class.php:66 classes/kcp_card_gateway.class.php:1015
+msgid "실결제"
+msgstr ""
+
+#: classes/admin_metabox.class.php:68
+msgid "에스크로"
+msgstr ""
+
+#: classes/admin_metabox.class.php:73
+msgid "결제대행사 링크"
+msgstr ""
+
+#: classes/admin_metabox.class.php:83 template/order_detail.php:83
+msgid "현금영수증"
+msgstr ""
+
+#: classes/admin_metabox.class.php:94
+msgid "현금영수증 확인"
+msgstr ""
+
+#: classes/admin_metabox.class.php:96
+msgid "현금영수증 발급"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:13
+msgid "KCP 계좌이체"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:20
+msgid "KCP 계좌이체입니다."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:34
+#: classes/kcp_card_gateway.class.php:902 classes/kcp_easypay.class.php:34
+#: classes/kcp_phonepay.class.php:34 classes/kcp_virtualaccount.class.php:36
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:36 classes/kcp_phonepay.class.php:36
+#: classes/kcp_virtualaccount.class.php:38
+#, php-format
+msgid "%s 를 활성화합니다."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:40
+#: classes/kcp_card_gateway.class.php:908 classes/kcp_easypay.class.php:40
+#: classes/kcp_phonepay.class.php:40 classes/kcp_virtualaccount.class.php:42
+msgid "Title"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:42
+#: classes/kcp_card_gateway.class.php:910 classes/kcp_easypay.class.php:42
+#: classes/kcp_phonepay.class.php:42
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:47
+#: classes/kcp_card_gateway.class.php:915 classes/kcp_easypay.class.php:47
+#: classes/kcp_phonepay.class.php:47 classes/kcp_virtualaccount.class.php:47
+msgid "Description"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:49 classes/kcp_easypay.class.php:49
+#: classes/kcp_phonepay.class.php:49 classes/kcp_virtualaccount.class.php:49
+#, php-format
+msgid "%s 로 결제합니다."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:52
+#: classes/kcp_card_gateway.class.php:920 classes/kcp_easypay.class.php:52
+#: classes/kcp_phonepay.class.php:52 classes/kcp_virtualaccount.class.php:52
+msgid "Instructions"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:54
+#: classes/kcp_card_gateway.class.php:922 classes/kcp_easypay.class.php:54
+#: classes/kcp_phonepay.class.php:54 classes/kcp_virtualaccount.class.php:54
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:59
+#: classes/kcp_accounttransfer.class.php:64
+#: classes/kcp_card_gateway.class.php:1042
+#: classes/kcp_card_gateway.class.php:1047 classes/kcp_easypay.class.php:59
+#: classes/kcp_easypay.class.php:64 classes/kcp_phonepay.class.php:59
+#: classes/kcp_phonepay.class.php:64
+msgid "사용자 결제 후 주문상태"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:60
+#: classes/kcp_card_gateway.class.php:1043 classes/kcp_easypay.class.php:60
+#: classes/kcp_phonepay.class.php:60
+msgid "KCP 결제시 사용자의 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:69
+#: classes/kcp_card_gateway.class.php:1052 classes/kcp_easypay.class.php:69
+#: classes/kcp_phonepay.class.php:69 classes/kcp_virtualaccount.class.php:69
+#: classes/kcp_virtualaccount.class.php:83
+msgid "선택해 주세요."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:73
+#: classes/kcp_accounttransfer.class.php:78
+#: classes/kcp_card_gateway.class.php:1056
+#: classes/kcp_card_gateway.class.php:1061 classes/kcp_easypay.class.php:73
+#: classes/kcp_easypay.class.php:78 classes/kcp_phonepay.class.php:73
+#: classes/kcp_phonepay.class.php:78
+msgid "주문취소 가능한 상태 ( 사용자 )"
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:74
+#: classes/kcp_card_gateway.class.php:1057 classes/kcp_easypay.class.php:74
+#: classes/kcp_phonepay.class.php:74
+msgid "KCP 결제시 사용자가 주문취소 할 수 있는 상태를 지정합니다."
+msgstr ""
+
+#: classes/kcp_accounttransfer.class.php:83
+#: classes/kcp_card_gateway.class.php:1066 classes/kcp_easypay.class.php:83
+#: classes/kcp_phonepay.class.php:83
+msgid "주문취소 가능한 상태를 선택해 주세요."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:27 classes/kcp_card_gateway.class.php:911
+msgid "KCP 카드결제"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:34
+msgid "KCP 카드결제입니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:242
+msgid "환불요청사유를 입력해 주세요."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:335 kcp/settle_kcp.inc.php:61
+msgid "SR 로 시작하지 않는 KCP SITE CODE 는 지원하지 않습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:401 kcp/pp_ax_hub.php:215
+msgid ""
+"연동 오류|Payplus Plugin이 설치되지 않았거나 tran_cd값이 설정되지 않았습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:428
+#, php-format
+msgid "%s 님이 %s, ( %s ) 이유로 가격 %s 를 취소하셨습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:444
+msgid "알수 없는 이유로 환불 할수 없습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:481
+msgid "pg 거래번호가 저장되지 않았거나 없습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:504
+msgid "쇼핑몰 운영자 승인 취소"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:504
+msgid "사용자 취소"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:534
+#, php-format
+msgid "%s 님의 요청으로 인해 %s 이 환불되었습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:599
+msgid "금액이 틀립니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:656
+msgid "결제금액 불일치"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:676
+msgid "Awaiting process payment"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:679 classes/kcp_user_cancel.class.php:43
+msgid "비회원"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:683
+#, php-format
+msgid "%s 님이 %s로 주문하였습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:691
+#, php-format
+msgid "%s 님이 %s 가격 %s 결제 하였습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:843 lib/functions.php:343
+#, php-format
+msgid "%s 외 %d 건"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:896
+msgid "결제해 주셔서 감사합니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:904
+msgid "KCP 카드결제를 활성화합니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:927
+msgid "신용카드 무이자할부사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:930
+#: classes/kcp_card_gateway.class.php:981
+msgid "사용안함"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:931
+#: classes/kcp_card_gateway.class.php:982
+msgid "사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:933
+msgid ""
+"주문시 신용카드 무이자할부를 가능하게 할것인지를 설정합니다.<br>사용으로 설정"
+"하시면 PG사 가맹점 관리자 페이지에서 설정하신 무이자할부 설정이 적용됩니다."
+"<br>사용안함으로 설정하시면 PG사 무이자 이벤트 카드를 제외한 모든 카드의 무이"
+"자 설정이 적용되지 않습니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:978
+msgid "현금영수증 발급사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:984
+msgid ""
+"관리자는 설정에 관계없이 주문 보기에서 발급이 가능합니다.<br>현금영수증 발급 "
+"취소는 PG사에서 지원하는 현금영수증 취소 기능을 사용하시기 바랍니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:987
+msgid "KCP SITE CODE"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:989
+msgid ""
+"KCP 에서 받은 SR 로 시작하는 영대문자, 숫자 혼용 총 5자리 중 SR 을 제외한 나"
+"머지 3자리 SITE CODE 를 입력하세요.<br>만약, 사이트코드가 SR로 시작하지 않는"
+"다면 KCP에 사이트코드 변경 요청을 하십시오. 예) SR9A3"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:991
+msgid "SR 을 제외한 나머지 3자리 SITE CODE 를 입력하세요."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:995
+msgid "KCP SITE KEY"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:997
+msgid ""
+"25자리 영대소문자와 숫자 - 그리고 _ 로 이루어 집니다. SITE KEY 발급 KCP 전"
+"화: 1544-8660<br>예) 1Q9YRV83gz6TukH8PjH0xFf__"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:999
+msgid "SITE KEY 를 입력해주세요."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1003
+msgid "에스크로 사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1006
+msgid "일반결제 사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1007
+msgid "에스크로결제 사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1009
+msgid ""
+"에스크로 결제를 사용하시려면, 반드시 결제대행사 상점 관리자 페이지에서 에스크"
+"로 서비스를 신청하신 후 사용하셔야 합니다.<br>에스크로 사용시 배송과의 연동"
+"은 되지 않으며 에스크로 결제만 지원됩니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1012
+msgid "결제테스트"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1016
+msgid "테스트 결제"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1021
+msgid "복합과세 결제"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1023
+msgid "복합결제 사용"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1025
+msgid ""
+"복합과세(과세, 비과세) 결제를 사용하려면 체크하십시오.<br >( 우커머스 -> 설"
+"정 -> 세금 옵션 -> 세금 활성화 도 같이 체크되어야 합니다. )<br>복합과세 결제"
+"를 사용하기 전 PG사에 별도로 결제 신청을 해주셔야 합니다. 사용시 PG사로 문의"
+"하여 주시기 바랍니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1028
+#: classes/kcp_card_gateway.class.php:1033
+msgid "환불 후 주문상태"
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1029
+msgid "환불 후 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1038
+msgid "환불 후 주문상태를 선택해 주세요."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1085
+msgid ""
+"PHP openssl 확장모듈이 설치되어 있지 않습니다.\\n모바일 쇼핑몰 결제 때 사용되"
+"오니 openssl 확장 모듈을 설치하여 주십시오."
+msgstr ""
+
+#: classes/kcp_card_gateway.class.php:1089
+msgid ""
+"PHP SOAP 확장모듈이 설치되어 있지 않습니다.\\n모바일 쇼핑몰 결제 때 사용되오"
+"니 SOAP 확장 모듈을 설치하여 주십시오."
+msgstr ""
+
+#: classes/kcp_easypay.class.php:13
+msgid "KCP 간편결제"
+msgstr ""
+
+#: classes/kcp_easypay.class.php:20
+msgid "KCP 간편결제입니다."
+msgstr ""
+
+#: classes/kcp_easypay.class.php:36
+#, php-format
+msgid "%s 를 출력합니다."
+msgstr ""
+
+#: classes/kcp_pay_gateway.class.php:28
+#, php-format
+msgid "Activate this module to accept %s transactions"
+msgstr ""
+
+#: classes/kcp_phonepay.class.php:13
+msgid "KCP 휴대폰결제"
+msgstr ""
+
+#: classes/kcp_phonepay.class.php:20
+msgid "KCP 휴대폰결제입니다."
+msgstr ""
+
+#: classes/kcp_tax.class.php:47
+msgid "권한이 없습니다."
+msgstr ""
+
+#: classes/kcp_tax.class.php:57
+msgid "주문서가 존재하지 않습니다."
+msgstr ""
+
+#: classes/kcp_tax.class.php:98
+#, php-format
+msgid "주문번호 %s 현금영수증 발행"
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:20
+msgid "환불요청할수 있는 권한이 없습니다."
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:27
+msgid "환불된 내역이 있기 때문에 사용자가 취소할수 없습니다."
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:38
+msgid "사용자 주문 취소"
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:49
+#, php-format
+msgid "%s 님이 요청한 환불 오류 메시지 : %s"
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:54
+#, php-format
+msgid "환불요청오류 : %s"
+msgstr ""
+
+#: classes/kcp_user_cancel.class.php:57 classes/kcp_user_cancel.class.php:59
+msgid "알수 없는 이유로 환불 오류가 발생했습니다."
+msgstr ""
+
+#: classes/kcp_user_order_details.class.php:46
+#: classes/kcp_user_order_details.class.php:53
+msgid "승인번호"
+msgstr ""
+
+#: classes/kcp_user_order_details.class.php:60
+msgid "휴대폰번호"
+msgstr ""
+
+#: classes/kcp_user_order_details.class.php:67
+msgid "거래번호"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:19
+msgid "KCP 가상계좌"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:28
+msgid "KCP 가상계좌 입금통보 URL은 아래와 같습니다."
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:59
+#: classes/kcp_virtualaccount.class.php:64
+msgid "가상계좌 입금 요청전 주문상태"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:60
+msgid "KCP 가상계좌 입금 요청전 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:73
+msgid "가상계좌 입금 후 주문상태"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:74
+msgid "가상계좌 입금 후 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:78
+msgid "가상계좌 입금 후 주문상태 주문상태"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:112
+msgid "경고"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:113
+msgid "올바르지 않은 접속 보고"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:114
+#, php-format
+msgid ""
+"%s 에 %s 이 %s 에 접속을 시도하였습니다.\n"
+"\n"
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:223
+msgid "kcp 가상계좌에 입금 되었습니다."
+msgstr ""
+
+#: classes/kcp_virtualaccount.class.php:226
+msgid "해당 주문번호랑 틀린 잘못된 pg 요청이 들어왔습니다."
+msgstr ""
+
+#: gnupay-kcp-payment.php:173
+msgid "그누페이 KCP 플러그인은 우커머스 플러그인을 활성화를 필요로 합니다."
+msgstr ""
+
+#: gnupay-kcp-payment.php:214
+msgid "그누페이 KCP 설정"
+msgstr ""
+
+#: gnupay-kcp-payment.php:214
+msgid "설정"
+msgstr ""
+
+#: kcp/pp_cli_hub.php:31
+msgid "이미 등록된 현금영수증 입니다."
+msgstr ""
+
+#: kcp/pp_cli_result.php:79
+msgid "등록"
+msgstr ""
+
+#: kcp/pp_cli_result.php:83
+msgid "변경/조회"
+msgstr ""
+
+#: kcp/pp_cli_result.php:86
+#, php-format
+msgid "현금영수증발급 %s | %s"
+msgstr ""
+
+#: lib/functions.php:29
+msgid "상점"
+msgstr ""
+
+#: lib/functions.php:30
+msgid "결제"
+msgstr ""
+
+#: lib/functions.php:31
+msgid "장바구니"
+msgstr ""
+
+#: lib/functions.php:32
+msgid "마이페이지"
+msgstr ""
+
+#: lib/functions.php:33
+msgid "쇼핑"
+msgstr ""
+
+#: lib/functions.php:34
+msgid "주문"
+msgstr ""
+
+#: lib/functions.php:35
+msgid "입금"
+msgstr ""
+
+#: lib/functions.php:36
+msgid "준비"
+msgstr ""
+
+#: lib/functions.php:37
+msgid "배송"
+msgstr ""
+
+#: lib/functions.php:38
+msgid "완료"
+msgstr ""
+
+#: lib/functions.php:39
+msgid "취소"
+msgstr ""
+
+#: lib/functions.php:40
+msgid "반품"
+msgstr ""
+
+#: lib/functions.php:41
+msgid "품절"
+msgstr ""
+
+#: lib/functions.php:42
+msgid "삭제"
+msgstr ""
+
+#: lib/functions.php:43
+msgid "전체회원"
+msgstr ""
+
+#: lib/functions.php:44
+msgid "무통장"
+msgstr ""
+
+#: lib/functions.php:45
+msgid "가상계좌"
+msgstr ""
+
+#: lib/functions.php:46
+msgid "계좌이체"
+msgstr ""
+
+#: lib/functions.php:47
+msgid "휴대폰결제"
+msgstr ""
+
+#: lib/functions.php:48
+msgid "신용카드"
+msgstr ""
+
+#: lib/functions.php:49
+msgid "간편결제"
+msgstr ""
+
+#: lib/functions.php:50
+msgid "카카오페이"
+msgstr ""
+
+#: lib/functions.php:72
+msgid "올바른 방법으로 이용해 주십시오."
+msgstr ""
+
+#: template/order_detail.php:10
+msgid "결제정보"
+msgstr ""
+
+#: template/order_detail.php:22
+msgid "결제금액"
+msgstr ""
+
+#: template/order_detail.php:28
+msgid "아직 입금되지 않았거나 입금정보를 입력하지 못하였습니다."
+msgstr ""
+
+#: template/order_detail.php:36
+msgid "입금은행"
+msgstr ""
+
+#: template/order_detail.php:40 template/order_detail.php:124
+msgid "입금자명"
+msgstr ""
+
+#: template/order_detail.php:44 template/order_detail.php:120
+msgid "입금계좌"
+msgstr ""
+
+#: template/order_detail.php:51
+msgid "영수증"
+msgstr ""
+
+#: template/order_detail.php:57 template/order_detail.php:64
+msgid "영수증 출력"
+msgstr ""
+
+#: template/order_detail.php:88
+msgid "현금영수증 확인하기"
+msgstr ""
+
+#: template/order_detail.php:90
+msgid "현금영수증을 발급하시려면 클릭하십시오."
+msgstr ""
+
+#: template/order_detail.php:107
+msgid "관리자가 가상계좌 테스트를 한 경우에만 보입니다."
+msgstr ""
+
+#: template/order_detail.php:109
+msgid "모의입금처리"
+msgstr ""
+
+#: template/order_detail.php:116
+msgid "KCP 거래번호"
+msgstr ""
+
+#: template/order_detail.php:128
+msgid "입금통보 URL"
+msgstr ""
+
+#: template/order_detail.php:134
+msgid "입금통보 테스트"
+msgstr ""
+
+#: template/tax_result.php:15
+#, php-format
+msgid "현금영수증 %s - KCP Online Payment System"
+msgstr ""
+
+#: template/tax_result.php:33 template/tax_result.php:76
+#: template/tax_result.php:123 template/tax_result.php:165
+msgid "결과코드"
+msgstr ""
+
+#: template/tax_result.php:37 template/tax_result.php:80
+#: template/tax_result.php:127 template/tax_result.php:169
+msgid "결과 메세지"
+msgstr ""
+
+#: template/tax_result.php:41 template/tax_result.php:131
+msgid "현금영수증 거래번호"
+msgstr ""
+
+#: template/tax_result.php:45 template/tax_result.php:135
+msgid "현금영수증 승인번호"
+msgstr ""
+
+#: template/tax_result.php:49 template/tax_result.php:139
+msgid "등록 상태 코드"
+msgstr ""
+
+#: template/tax_result.php:53 template/tax_result.php:143
+msgid "등록 상태 설명"
+msgstr ""
+
+#: template/tax_result.php:57 template/tax_result.php:147
+msgid "승인시간"
+msgstr ""
+
+#: template/tax_result.php:61 template/tax_result.php:151
+msgid "현금영수증 URL"
+msgstr ""
+
+#: template/tax_result.php:63
+msgid "영수증 확인"
+msgstr ""
+
+#: template/tax_result.php:64
+msgid "영수증 확인은 실 등록의 경우에만 가능합니다"
+msgstr ""
+
+#: template/tax_result.php:91
+msgid "취소 결과코드"
+msgstr ""
+
+#: template/tax_result.php:95
+msgid "취소 결과 메세지"
+msgstr ""
+
+#: template/tax_result.php:99
+msgid "상세메세지"
+msgstr ""
+
+#: template/tax_result.php:104
+msgid ""
+"결제는 정상적으로 이루어졌지만 쇼핑몰에서 결제 결과를 처리하는 중 오류가 발생"
+"하여 시스템에서 자동으로 취소 요청을 하였습니다. <br> 쇼핑몰로 전화하여 확인"
+"하시기 바랍니다."
+msgstr ""
+
+#: template/tax_result.php:108
+msgid ""
+"결제는 정상적으로 이루어졌지만 쇼핑몰에서 결제 결과를 처리하는 중 오류가 발생"
+"하여 시스템에서 자동으로 취소 요청을 하였으나, <br> <b>취소가 실패 되었습니"
+"다.</b><br> 쇼핑몰로 전화하여 확인하시기 바랍니다."
+msgstr ""
+
+#: template/tax_result.php:155
+msgid "영수증 확인은 실 등록의 경우에만 가능합니다."
+msgstr ""
+
+#: template/taxsave_form.php:131
+msgid "주문 번호"
+msgstr ""
+
+#: template/taxsave_form.php:135
+msgid "상품 정보"
+msgstr ""
+
+#: template/taxsave_form.php:139
+msgid "주문자 이름"
+msgstr ""
+
+#: template/taxsave_form.php:143
+msgid "주문자 E-Mail"
+msgstr ""
+
+#: template/taxsave_form.php:147
+msgid "주문자 전화번호"
+msgstr ""
+
+#: template/taxsave_form.php:156
+msgid "현금영수증 발급 정보"
+msgstr ""
+
+#: template/taxsave_form.php:182
+msgid "원 거래 시각"
+msgstr ""
+
+#: template/taxsave_form.php:186
+msgid "발행 용도"
+msgstr ""
+
+#: template/taxsave_form.php:189
+msgid "소득공제용"
+msgstr ""
+
+#: template/taxsave_form.php:191
+msgid "지출증빙용"
+msgstr ""
+
+#: template/taxsave_form.php:197
+msgid "주민(휴대폰)번호"
+msgstr ""
+
+#: template/taxsave_form.php:198
+msgid "사업자번호"
+msgstr ""
+
+#: template/taxsave_form.php:202
+msgid "(\"-\" 생략)"
+msgstr ""
+
+#: template/taxsave_form.php:206
+msgid "거래금액 총합"
+msgstr ""
+
+#: template/taxsave_form.php:210
+msgid "공급가액"
+msgstr ""
+
+#: template/taxsave_form.php:214
+msgid "봉사료"
+msgstr ""
+
+#: template/taxsave_form.php:218
+msgid "부가가치세"
+msgstr ""
+
+#: template/taxsave_form.php:227
+msgid "등록요청"
+msgstr ""
+
+#: template/taxsave_form.php:230
+msgid "등록 진행중입니다. 잠시만 기다려주십시오"
+msgstr ""
+
+#: template/taxsave_form.php:239
+msgid "ⓒ Copyright 2007. KCP Inc.  All Rights Reserved."
+msgstr ""
